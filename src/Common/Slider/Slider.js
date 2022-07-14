@@ -37,6 +37,10 @@ export const Slider = ({onToggleButtonHandler, isVisible}) => {
                 slidesPerView={isVisible ? 1 : 2}
                 autoplay={true}
                 speed={700}
+                Navigation
+                grabCursor={true}
+                scrollbar={{draggable: true}}
+                pagination={{clickable: true}}
                 // effect={"coverflow"}
                 // onSlideChange={() => console.log('slide change')}
                 // onSwiper={(swiper) => console.log(swiper)}
@@ -44,14 +48,15 @@ export const Slider = ({onToggleButtonHandler, isVisible}) => {
                 {
                     dataImg.map((el, index) => (
                         <SwiperSlide key={index}>
-                            {({isActive}) => (<div>
-                                {isActive ? null : <div className={s.wrapper_cover}></div>}
-                                <CardSlider img={el.url}
-                                            description={el.description}
-                                            onToggleButtonHandler={onToggleButtonHandler}
-                                            isVisible={isVisible}
-                                />
-                            </div>)}
+                            {({isActive}) => (
+                                <div>
+                                    {isActive ? null : <div className={s.wrapper_cover}></div>}
+                                    <CardSlider img={el.url}
+                                                description={el.description}
+                                                onToggleButtonHandler={onToggleButtonHandler}
+                                                isVisible={isVisible}
+                                    />
+                                </div>)}
                         </SwiperSlide>))
                 }
             </Swiper>

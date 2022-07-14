@@ -1,0 +1,54 @@
+.containerTab {
+    width: 100%;
+}
+
+.tabHeader {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+
+    /*border: 1px solid red;*/
+}
+
+.tabHeader ul{
+    /*border: 1px solid green;*/
+    display: flex;
+    justify-content: start;
+    padding: 0;
+}
+
+.tabHeader li {
+    font-family: 'Manrope', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #141414;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+margin-left: 20px;
+}
+
+.tabHeader .active {
+    color: #141414;
+    border-bottom: 3px solid #141414;
+}
+
+@media (max-width:  768px) {
+    .tabHeader ul {
+        width: 100%;
+
+    }
+    .tabHeader li {
+        font-size: 22px;
+    }
+
+    .tabHeader li:nth-child(1):after,.tabHeader li:nth-child(2):after {
+        width: 25px;
+    }
+}

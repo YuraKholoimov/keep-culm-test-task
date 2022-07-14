@@ -1,0 +1,84 @@
+.arrowsItems {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /*border: 2px solid #c5aea5;*/
+    width: 100%;
+    height: 500px;
+
+}
+
+.arrowWrapper {
+    display: flex;
+    align-items: center;
+}
+.block {
+    /*display: none;*/
+    width: 20px;
+    /*height: 100px;*/
+    /*background: #8e1f1f;*/
+    margin: 10px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.arrowWrapper:hover h1 {
+    opacity: 1;
+}
+/*************** * Arrow ***************/
+#arrow_1 .arrow {
+    cursor: pointer;
+    display: block;
+    width: 21.216407355px;
+    height: 42.43281471px;
+    position: relative;
+}
+#arrow_1 .arrow span, #arrow_1 .arrow:before, #arrow_1 .arrow:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    top: calc(50% - (2px / 2));
+}
+#arrow_1 .arrow:before {
+    transform: rotate(-45deg);
+}
+#arrow_1 .arrow:after {
+    transform: rotate(45deg);
+}
+#arrow_1 .arrow span {
+    width: 0;
+}
+#arrow_1 .arrow:hover span {
+    width: 42.42px;
+}
+#arrow_1 .arrow.arrowLeft span, #arrow_1 .arrow.arrowLeft:before, #arrow_1 .arrow.arrowLeft:after {
+    left: 0;
+    transform-origin: left 50%;
+}
+#arrow_1 .arrow.arrowLeft:before, #arrow_1 .arrow.arrowLeft:after {
+    transition: left 0.3s 0.05s;
+}
+#arrow_1 .arrow.arrowLeft span {
+    transition: width 0.3s, left 0.3s 0.05s;
+}
+#arrow_1 .arrow.arrowLeft:hover span, #arrow_1 .arrow.arrowLeft:hover:before, #arrow_1 .arrow.arrowLeft:hover:after {
+    left: -21.216407355px;
+}
+#arrow_1 .arrow.arrowRight span, #arrow_1 .arrow.arrowRight:before, #arrow_1 .arrow.arrowRight:after {
+    right: 0;
+    transform-origin: right 50%;
+}
+#arrow_1 .arrow.arrowRight:before, #arrow_1 .arrow.arrowRight:after {
+    transition: right 0.3s 0.05s;
+}
+#arrow_1 .arrow.arrowRight span {
+    transition: width 0.3s, right 0.3s 0.05s;
+}
+#arrow_1 .arrow.arrowRight:hover span, #arrow_1 .arrow.arrowRight:hover:before, #arrow_1 .arrow.arrowRight:hover:after {
+    right: -21.216407355px;
+}

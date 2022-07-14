@@ -4,5 +4,6 @@
     top: 50px;
     left: 20px;
     position: absolute;
+    margin: -50px 0 0;
     background-color: rgba(233, 233, 233, 0.61);
 }

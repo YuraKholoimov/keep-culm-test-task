@@ -1,0 +1,24 @@
+.modal {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background);
+    width: 375px;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.modal p {
+    color: white;
+}
+
+.closeButton {
+    /*content: url("https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45782/cross-mark-emoji-clipart-md.png");*/
+    height: 16px;
+    width: 16px;
+    left: 331px;
+    top: 29px;
+}

@@ -1,8 +1,4 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .wrapper {
@@ -45,6 +41,7 @@
 }
 
 .description {
+    margin: 0 auto;
     width: 90%;
     height: 200px;
 }

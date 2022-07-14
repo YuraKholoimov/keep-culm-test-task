@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/keep-culm-test-task/static/css/main.97b7df4f.css",
+    "main.js": "/keep-culm-test-task/static/js/main.c5026aea.js",
+    "static/media/MintTypeOrchideaProMedium.otf": "/keep-culm-test-task/static/media/MintTypeOrchideaProMedium.39ec72ce6a2d24dc1a2a.otf",
+    "index.html": "/keep-culm-test-task/index.html",
+    "main.97b7df4f.css.map": "/keep-culm-test-task/static/css/main.97b7df4f.css.map",
+    "main.c5026aea.js.map": "/keep-culm-test-task/static/js/main.c5026aea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97b7df4f.css",
+    "static/js/main.c5026aea.js"
+  ]
+}

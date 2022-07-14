@@ -6,10 +6,8 @@ export const CloseButton = ({onToggleButtonHandler}) => {
         onToggleButtonHandler()
     }
     return (
-        <div className={s.closer_container}>
-            <a href="#" className={s.closer}
-               onClick={onClickHandler}>
-            </a>
+        <div>
+            <a href="#" className={s.closer} onClick={onClickHandler}></a>
         </div>
     );
 };

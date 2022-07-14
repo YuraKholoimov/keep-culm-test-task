@@ -1,10 +1,10 @@
-import {Slider} from "../../../Slider/Slider";
+import {Slider} from "../../../../Common/Slider/Slider";
 
 
 export const Ipsum = ({onToggleButtonHandler, isVisible}) => {
     return (
-        <div>
+        <section>
             <Slider onToggleButtonHandler={onToggleButtonHandler}/>
-        </div>
+        </section>
     );
 };

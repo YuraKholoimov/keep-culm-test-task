@@ -1,0 +1,26 @@
+.wrapper {
+    padding-bottom: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 50px;
+
+    /*border: 1px solid;*/
+}
+
+
+.item img {
+    height: 350px;
+}
+
+.lorem {
+    /*border: 1px solid;*/
+    width: 90%;
+    padding-bottom: 50px;
+    margin-top: -10px;
+}

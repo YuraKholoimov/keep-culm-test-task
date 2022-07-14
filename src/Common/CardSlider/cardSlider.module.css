@@ -1,0 +1,35 @@
+.container {
+    width: 320px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 280px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapper2 {
+    width: 376px;
+    overflow: visible;
+}
+
+.wrapper_cover {
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    background-color: rgba(233, 233, 233, 0.61);
+}
+
+.slider img {
+    /*content: url("https://s3-alpha-sig.figma.com/img/c532/6728/4e1dee14b549efb168f3a770c9650916?Expires=1658102400&Signature=cHltPMpoudc7pdUj6-taXmW-cnbJd9y9ArkT3PcOHFpnf82inBqtJDatOzq2Kmnjo5Tzwlh0vHOAmJUQiWya6DQ0Y14xESYDhY7gMvE0bKEA8SYGvtMGB1ANWRu~cWeVIil-o9d8veY0Vp9b~5ldn3pNfjKhfYKKmZpQCjNEFWgRTPXbQHCPPR4OJUq1QbqiznIx9fqk7SP164FWTAvCgaNcvxuIdh-uhp4aoDoMrAgKfzqOMvE73K8y6ipzVch5EPdn~MScVnsp3j5V6ktXCUNWNd7kpzuJUG7Y1nPh-33zRF0xNRBkNHAhESpI3GtRv5x58D~gGUXuv5k~FBJu7g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");*/
+    /*background-image: url("https://s3-alpha-sig.figma.com/img/c532/6728/4e1dee14b549efb168f3a770c9650916?Expires=1658102400&Signature=cHltPMpoudc7pdUj6-taXmW-cnbJd9y9ArkT3PcOHFpnf82inBqtJDatOzq2Kmnjo5Tzwlh0vHOAmJUQiWya6DQ0Y14xESYDhY7gMvE0bKEA8SYGvtMGB1ANWRu~cWeVIil-o9d8veY0Vp9b~5ldn3pNfjKhfYKKmZpQCjNEFWgRTPXbQHCPPR4OJUq1QbqiznIx9fqk7SP164FWTAvCgaNcvxuIdh-uhp4aoDoMrAgKfzqOMvE73K8y6ipzVch5EPdn~MScVnsp3j5V6ktXCUNWNd7kpzuJUG7Y1nPh-33zRF0xNRBkNHAhESpI3GtRv5x58D~gGUXuv5k~FBJu7g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");*/
+    /*background-position: center;*/
+    height: 700px;
+}

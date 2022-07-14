@@ -1,0 +1,69 @@
+.app {
+  width: 375px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+
+  border: 1px solid;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-background);
+  width: 375px;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.modal p {
+  color: white;
+}
+
+.description {
+  width: 90%;
+  height: 200px;
+}
+
+.closeButton {
+  /*content: url("https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45782/cross-mark-emoji-clipart-md.png");*/
+  height: 16px;
+  width: 16px;
+  left: 331px;
+  top: 29px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

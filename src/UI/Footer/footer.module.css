@@ -1,0 +1,18 @@
+footer {
+    width: 375px;
+    height: 200px;
+    background-color: var(--color-text-black);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+footer span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-text-white);
+    padding-bottom: 18px;
+}
+

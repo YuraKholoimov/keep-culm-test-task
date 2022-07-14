@@ -1,0 +1,45 @@
+.closer_container {}
+
+.closer {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 18px;
+    top: 19px;
+    z-index: 55;
+}
+
+.closer::before {
+    transform: rotate(-45deg) translateZ(0);
+    top: 18px;
+    left: -1px;
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background-color: #ffffff;
+    transition: all .3s;
+    /*perspective: 30px;*/
+}
+.closer::after {
+    top: 18px;
+    left: -1px;
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background-color: #ffffff;
+    transition: all .3s ease;
+    /*perspective: 30px;*/
+    transform: rotate(45deg) translateZ(0);
+
+}
+
+.closer:hover {
+    /*border: 2px solid var(--mc);*/
+    transform: scale(0.9);
+}
+.closer:active {
+    /*border: 2px solid var(--mc);*/
+    transform: scale(0.8);
+}
